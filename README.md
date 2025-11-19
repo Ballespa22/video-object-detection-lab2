@@ -2,7 +2,7 @@
 VIDEO OBJECT DETECTION – LAB 2 (README)
 ===========================================
 
-Author: TU NOMBRE  
+Author: PABLO BALLESTER y MARIO MUÑOZ  
 Course: Deep Learning for Video Signal Processing  
 Tested on: Ubuntu 18.04 (class PC), RTX 2080 Ti (CUDA 12.5)
 
