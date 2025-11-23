@@ -7,6 +7,8 @@ from torch.nn.modules.utils import _pair
 
 from mega_core import _C
 
+
+
 class _ROIPool(Function):
     @staticmethod
     def forward(ctx, input, roi, output_size, spatial_scale):
@@ -51,6 +53,7 @@ class ROIPool(nn.Module):
         self.output_size = output_size
         self.spatial_scale = spatial_scale
 
+    
     def forward(self, input, rois):
         return roi_pool(input, rois, self.output_size, self.spatial_scale)
 

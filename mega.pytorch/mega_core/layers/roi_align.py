@@ -7,6 +7,8 @@ from torch.nn.modules.utils import _pair
 
 from mega_core import _C
 
+
+
 class _ROIAlign(Function):
     @staticmethod
     def forward(ctx, input, roi, output_size, spatial_scale, sampling_ratio):
